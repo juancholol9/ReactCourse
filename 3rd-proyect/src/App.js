@@ -1,9 +1,12 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 export default function App(){
     return(
         <div className="main">
-            <h1>App Component</h1>
+            <Navbar/>
+            <Hero/>
         </div>
     )
 }
