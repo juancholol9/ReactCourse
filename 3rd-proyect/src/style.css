@@ -35,3 +35,23 @@
 .hero>p{
     font-size: 2rem;
 }
+
+.card{
+    background-color: rgb(145, 145, 221);
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.card--image{
+    width: inherit;
+    height: 75%;
+    border-radius: 9px;
+}
+
+
+.card--stats{
+    /* font-size: rem; */
+    display: flex;
+    align-items: center;
+}
