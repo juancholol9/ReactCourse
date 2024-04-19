@@ -8,7 +8,6 @@
 }
 .navbar{
     height: 7rem;
-    /* box-shadow: 0px 2.9px 7.4px rgba(0, 0, 0, 0.6); */
 }
 .nav--logo{
     position: relative;
@@ -16,42 +15,61 @@
     right: 50px;
     width: 300px;
 }
-
 .img--hero{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-
 .hero h1, .hero p{
     margin-left: 30px;
     margin-right: 30px;
 }
-
 .hero>h1{
     font-size: 4rem;
 }
 .hero>p{
     font-size: 2rem;
 }
-
 .card{
-    background-color: rgb(145, 145, 221);
-    width: 350px;
-    height: 500px;
-    overflow: hidden;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
+    width: 300px;
+    height: 600px;
+
+    margin: 30px 30px 30px;
+    border-radius: 10px;
+    /* background-color: blue; */
+}
 .card--image{
     width: inherit;
-    height: 75%;
-    border-radius: 9px;
+    height: 500px;
+    border-radius: 10px;
+
+}
+.card--stats{
+    display: flex;
+    font-size: 1.5rem;
+    margin: 10px 10px 0px 10px;
+}
+.card--stats img{
+    width: 30px;
+    height: 29px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.card p {
+    font-size: 1.3rem;
+    margin: 10px 10px 10px 10px;
+}
+.bold{
+    font-weight: bold;
 }
 
-
-.card--stats{
-    /* font-size: rem; */
+.main--card{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
