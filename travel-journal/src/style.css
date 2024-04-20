@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(255, 100, 100);
+    color: white;
+}
+.earth-icon{
+    font-size: 2rem;
+    display: block;
+    margin: auto 10px;
+}
+
+.navbar>p{
+    font-size: 2rem;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    margin: 60px 40px;
+}
+.cards-img{
+    width: 30%;
+    border-radius: 10px;
+}
+
+.cards-icon{
+    color: red
+}
+
+.cards-text{
+    margin-left: 30px;
+}
+.cards-row{
+    display: flex;
+
+}
+.cards-row>.cards-country, .cards-row>.cards-maps-link{
+    margin-left: 10px;
+}
+
+.cards-maps-link{
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.cards-text>h2{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.cards-text>p:nth-child(3){
+    font-weight: bold;
+    margin-top: 25px;
+}
+.cards-text>p:nth-child(4){
+    margin-top: 10px;
+}
